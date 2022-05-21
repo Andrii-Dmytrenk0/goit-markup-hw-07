@@ -7,10 +7,10 @@
 .hang__list {
     margin-left: 30px;
     max-width: 270px;
-}
 
-.hang__list:first-child {
-    margin-left: 0;
+    &:first-child{
+        margin-left: 0;
+    }
 }
 
 .hang__block {

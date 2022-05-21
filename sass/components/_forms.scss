@@ -26,10 +26,10 @@ textarea {
     align-items: flex-start;
     margin-bottom: 10px;
     position: relative;
-}
 
-.form-info:first-child {
-    margin-top: 0;
+    &:first-child{
+        margin-top: 0;
+    }
 }
 
 .form-info>label {

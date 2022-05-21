@@ -10,10 +10,10 @@
 
 .address__list {
     margin-bottom: 9px;
-}
 
-.address__list:last-child {
-    margin-bottom: 0;
+    &:last-child{
+        margin-bottom: 0;
+    }
 }
 
 .footer__icon {
@@ -52,11 +52,10 @@
     letter-spacing: 0.03em;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__map:hover,
-.address__map:focus {
-    color: var(--acent-color);
+    &:hover, &:focus{
+        color: var(--acent-color);
+    }
 }
 
 .address__item {
@@ -68,11 +67,10 @@
     letter-spacing: 0.03em;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address__item:hover,
-.address__item:focus {
-    color: var(--acent-color);
+    &:hover, &:focus{
+        color: var(--acent-color);
+    }
 }
 
 .footer__box {
@@ -114,23 +112,22 @@
 
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-    fill: var(--h1-text-color)
+    fill: var(--h1-text-color);
+
+    &:hover, &:focus { 
+        background-color: var(--acent-color);
+        border-radius: 50%;
+        fill: var(--h1-text-color);
+
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .footer-social__item-list {
     margin-right: 10px;
-}
 
-.footer-social__item-list:last-child {
-    margin-right: 0px;
-}
-
-.footer-social__link:hover,
-.footer-social__link:focus {
-    background-color: var(--acent-color);
-    border-radius: 50%;
-    fill: var(--h1-text-color);
-
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:last-child{
+        margin-right: 0;
+    }
 }
