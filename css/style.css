@@ -832,7 +832,7 @@ textarea {
   outline: transparent;
   border-color: var(--acent-color);
 }
-.form-info__text:focus-within+.input-svg {
+.form-info__text:focus-within+.form-info__svg{
   fill: var(--acent-color);
 }
 .feetback{
@@ -903,7 +903,7 @@ textarea {
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.polisy__checkbox:checked + .icon-checkbox{
+.polisy__checkbox:checked + .polisy__icon{
   background-color: var(--acent-color);
   border: 2px solid var(--acent-color);
 }
